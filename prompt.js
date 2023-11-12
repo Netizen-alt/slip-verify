@@ -30,7 +30,7 @@ module.exports = {
         const ppqr = validate.slipVerify(code.data) // ตรวจสอบ QR Code ว่าถูกต้องหรือไม่ โดยใช้ function จาก promptparse
         if(!ppqr) return interaction.reply('ไม่พบข้อมูลใน QR Code นี้') // ถ้าไม่ถูกต้องให้ส่งข้อความว่า ไม่พบข้อมูลใน QR Code นี้ 
 
-        let api = 'https://suba.rdcw.co.th/v1/inquiry' // ลิงค์ api ของ https://slip.rdcw.co.th/docs
+        let api = '' // ลิงค์ api ของ https://slip.rdcw.co.th/docs
 
         /**
          * curl -u 'CLIENT_ID:CLIENT_SECRET' \
