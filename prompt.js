@@ -43,7 +43,7 @@ module.exports = {
         }, {
             auth: {
                 username: '',
-                password: 'zIpTq--VjlR86'
+                password: ''
             }
         })
 
