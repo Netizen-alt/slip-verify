@@ -1,2 +1,2 @@
-# slip-verify
-for discord bot
+# slip-verify https://slip.rdcw.co.th/
+# basic custom verify slip for discord.js ez code!!!!!!!
